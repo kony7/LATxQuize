@@ -15,6 +15,8 @@
 		99A3E8DF25DEF71E00B989F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E8DD25DEF71E00B989F5 /* LaunchScreen.storyboard */; };
 		99A3E8EA25DEF71F00B989F5 /* QuizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E8E925DEF71F00B989F5 /* QuizeTests.swift */; };
 		99A3E8F525DEF71F00B989F5 /* QuizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E8F425DEF71F00B989F5 /* QuizeUITests.swift */; };
+		99A3E90625DEF79C00B989F5 /* QuizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E90525DEF79C00B989F5 /* QuizeViewController.swift */; };
+		99A3E90B25DEF7B800B989F5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E90A25DEF7B800B989F5 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		99A3E8F025DEF71F00B989F5 /* QuizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A3E8F425DEF71F00B989F5 /* QuizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeUITests.swift; sourceTree = "<group>"; };
 		99A3E8F625DEF71F00B989F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A3E90525DEF79C00B989F5 /* QuizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeViewController.swift; sourceTree = "<group>"; };
+		99A3E90A25DEF7B800B989F5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				99A3E8DB25DEF71E00B989F5 /* Assets.xcassets */,
 				99A3E8DD25DEF71E00B989F5 /* LaunchScreen.storyboard */,
 				99A3E8E025DEF71E00B989F5 /* Info.plist */,
+				99A3E90525DEF79C00B989F5 /* QuizeViewController.swift */,
+				99A3E90A25DEF7B800B989F5 /* ResultViewController.swift */,
 			);
 			path = Quize;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A3E90B25DEF7B800B989F5 /* ResultViewController.swift in Sources */,
 				99A3E8D725DEF71C00B989F5 /* ViewController.swift in Sources */,
+				99A3E90625DEF79C00B989F5 /* QuizeViewController.swift in Sources */,
 				99A3E8D325DEF71C00B989F5 /* AppDelegate.swift in Sources */,
 				99A3E8D525DEF71C00B989F5 /* SceneDelegate.swift in Sources */,
 			);
