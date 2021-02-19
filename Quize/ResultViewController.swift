@@ -8,14 +8,20 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-
+    
+    var correctAnser: Int = 0
+    
+    @IBOutlet var resultLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func buck() {
+    }
+    
     /*
     // MARK: - Navigation
 

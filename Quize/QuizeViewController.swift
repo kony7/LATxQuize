@@ -8,9 +8,23 @@
 import UIKit
 
 class QuizeViewController: UIViewController {
+    
+    var quizeArray = [Any]()
+    
+    var correctAnser: Int = 0
 
+    @IBOutlet var quizeImageView: UIImageView!
+    
+    @IBOutlet var choiceButton1: UIButton!
+    @IBOutlet var choiceButton2: UIButton!
+    @IBOutlet var choiceButton3: UIButton!
+    
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
+        
 
         // Do any additional setup after loading the view.
     }
