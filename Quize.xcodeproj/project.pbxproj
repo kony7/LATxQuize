@@ -17,10 +17,12 @@
 		99A3E8F525DEF71F00B989F5 /* QuizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E8F425DEF71F00B989F5 /* QuizeUITests.swift */; };
 		99A3E90625DEF79C00B989F5 /* QuizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E90525DEF79C00B989F5 /* QuizeViewController.swift */; };
 		99A3E90B25DEF7B800B989F5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E90A25DEF7B800B989F5 /* ResultViewController.swift */; };
-		99A3E91125DF3ADF00B989F5 /* こんぴ透過素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E90F25DF3ADE00B989F5 /* こんぴ透過素材.png */; };
-		99A3E91225DF3ADF00B989F5 /* 矢花くん透過素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E91025DF3ADF00B989F5 /* 矢花くん透過素材.png */; };
+		99A3E91125DF3ADF00B989F5 /* konpi.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E90F25DF3ADE00B989F5 /* konpi.png */; };
+		99A3E91225DF3ADF00B989F5 /* yabana.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E91025DF3ADF00B989F5 /* yabana.png */; };
 		99A3E91725DF3C2600B989F5 /* apron_man2-4think.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E91625DF3C2600B989F5 /* apron_man2-4think.png */; };
 		99A3E91C25DF3F6F00B989F5 /* apron_man2-1idea.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E91B25DF3F6F00B989F5 /* apron_man2-1idea.png */; };
+		99A3E92225E0287000B989F5 /* ryuga.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E92025E0286F00B989F5 /* ryuga.png */; };
+		99A3E92325E0287000B989F5 /* noel.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E92125E0286F00B989F5 /* noel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +59,12 @@
 		99A3E8F625DEF71F00B989F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99A3E90525DEF79C00B989F5 /* QuizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeViewController.swift; sourceTree = "<group>"; };
 		99A3E90A25DEF7B800B989F5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		99A3E90F25DF3ADE00B989F5 /* こんぴ透過素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "こんぴ透過素材.png"; sourceTree = "<group>"; };
-		99A3E91025DF3ADF00B989F5 /* 矢花くん透過素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矢花くん透過素材.png"; sourceTree = "<group>"; };
+		99A3E90F25DF3ADE00B989F5 /* konpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = konpi.png; sourceTree = "<group>"; };
+		99A3E91025DF3ADF00B989F5 /* yabana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yabana.png; sourceTree = "<group>"; };
 		99A3E91625DF3C2600B989F5 /* apron_man2-4think.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apron_man2-4think.png"; sourceTree = "<group>"; };
 		99A3E91B25DF3F6F00B989F5 /* apron_man2-1idea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apron_man2-1idea.png"; sourceTree = "<group>"; };
+		99A3E92025E0286F00B989F5 /* ryuga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ryuga.png; sourceTree = "<group>"; };
+		99A3E92125E0286F00B989F5 /* noel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noel.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +115,12 @@
 		99A3E8D125DEF71C00B989F5 /* Quize */ = {
 			isa = PBXGroup;
 			children = (
+				99A3E92025E0286F00B989F5 /* ryuga.png */,
+				99A3E92125E0286F00B989F5 /* noel.png */,
 				99A3E91B25DF3F6F00B989F5 /* apron_man2-1idea.png */,
 				99A3E91625DF3C2600B989F5 /* apron_man2-4think.png */,
-				99A3E90F25DF3ADE00B989F5 /* こんぴ透過素材.png */,
-				99A3E91025DF3ADF00B989F5 /* 矢花くん透過素材.png */,
+				99A3E90F25DF3ADE00B989F5 /* konpi.png */,
+				99A3E91025DF3ADF00B989F5 /* yabana.png */,
 				99A3E8D225DEF71C00B989F5 /* AppDelegate.swift */,
 				99A3E8D425DEF71C00B989F5 /* SceneDelegate.swift */,
 				99A3E8D625DEF71C00B989F5 /* ViewController.swift */,
@@ -252,9 +258,11 @@
 				99A3E91725DF3C2600B989F5 /* apron_man2-4think.png in Resources */,
 				99A3E8DF25DEF71E00B989F5 /* LaunchScreen.storyboard in Resources */,
 				99A3E91C25DF3F6F00B989F5 /* apron_man2-1idea.png in Resources */,
-				99A3E91225DF3ADF00B989F5 /* 矢花くん透過素材.png in Resources */,
+				99A3E92325E0287000B989F5 /* noel.png in Resources */,
+				99A3E91225DF3ADF00B989F5 /* yabana.png in Resources */,
 				99A3E8DC25DEF71E00B989F5 /* Assets.xcassets in Resources */,
-				99A3E91125DF3ADF00B989F5 /* こんぴ透過素材.png in Resources */,
+				99A3E91125DF3ADF00B989F5 /* konpi.png in Resources */,
+				99A3E92225E0287000B989F5 /* ryuga.png in Resources */,
 				99A3E8DA25DEF71C00B989F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

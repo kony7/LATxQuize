@@ -15,11 +15,16 @@ class ResultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        resultLabel.text = String(correctAnser)
 
         // Do any additional setup after loading the view.
     }
     
     @IBAction func buck() {
+        
+        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+        
     }
     
     /*
